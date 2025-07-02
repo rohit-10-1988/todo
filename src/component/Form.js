@@ -19,7 +19,7 @@ const Form = () => {
     }
     const handleDelete=(deleteindex)=>{
         const updatedlist = list.filter((index)=>{
-            return index != deleteindex
+            return index !== deleteindex
         })
         setlist(updatedlist)
     }
