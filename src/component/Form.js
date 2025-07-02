@@ -30,7 +30,7 @@ const Form = () => {
             <div className='col-md-10'>
                 <form onSubmit={handleSubmit}>
                     <div class="mb-3">
-                        <h1>ToDo App</h1>
+                        <h1>ToDo App List</h1>
                         <input type="text" class="form-control" id="todo" onChange={handleEvent} value={data} />
                         </div>
 
